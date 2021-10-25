@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="ChjBattleDroid"]/alienRace/raceRestriction/whiteApparelList</xpath>
+        <value>
+            <li>Eccentric_PhasedShieldBelt</li>
+            <li>Eccentric_ModulatedShieldBelt</li>
+            <li>Eccentric_LayeredShieldBelt</li>
+        </value>
+      </Operation>
+
+      <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="ChjSpacerBattleDroid"]/alienRace/raceRestriction/whiteApparelList</xpath>
+        <value>
+            <li>Eccentric_PhasedShieldBelt</li>
+            <li>Eccentric_ModulatedShieldBelt</li>
+            <li>Eccentric_LayeredShieldBelt</li>
+        </value>
+      </Operation>
+
+      
+      <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="ChjArchBattleDroid"]/alienRace/raceRestriction/whiteApparelList</xpath>
+        <value>
+            <li>Eccentric_PhasedShieldBelt</li>
+            <li>Eccentric_ModulatedShieldBelt</li>
+            <li>Eccentric_LayeredShieldBelt</li>
+        </value>
+      </Operation>
+
+</Patch>

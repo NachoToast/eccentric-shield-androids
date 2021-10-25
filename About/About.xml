@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Eccentric Shields Android Patch</name>
+  <author>NachoToast</author>
+	<url>TBC</url>
+  <supportedVersions>
+    <li>1.3</li>
+  </supportedVersions>
+  <packageId>NachoToast.ShieldPatch</packageId>
+  <description>
+    Patches Eccentric Tech shield belts to work with the battle droids from CHJeez's android mod.
+    Also works with the advanced and archotech counterparts from androids expanded.
+  </description>
+  <modDependencies>
+    <li>
+      <packageId>ChJees.Androids</packageId>
+      <displayName>Androids</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1541064015</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>Aelanna.EccentricTech.AdvancedShields</packageId>
+      <displayName>Eccentric Tech - Advanced Shields</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2591721581</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>ChJees.Androids</li>
+    <li>Aelanna.EccentricTech.AdvancedShields</li>
+  </loadAfter>
+</ModMetaData>
